@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPSR Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="myjs.js"></script>
+</head>
+
+<body>
+
+    <div class="phone-status-bar">
+        <h1 class="heading-primary">GPSR Chat</h1>
+        <div class="phone-status-bar__right-icon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="menu-bar">
+        <i class="fa fa-camera" aria-hidden="true"></i>
+        <ul class="menu-bar__list">
+            <li class="menu-bar__list-item" onclick="changeTab(1);">Chat</li>
+            <li class="menu-bar__list-item" onclick="changeTab(2);">Status</li>
+            <li class="menu-bar__list-item" onclick="changeTab(3);">Calls</li>
+        </ul>
+    </div>
+
+    <div class="chat-status-call">
+        <div class="chat-container">
+
+            <div class="contact-list">
+                <i class="material-icons">
+                            chat
+                            </i>
+            </div>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Bhai.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Bhai
+                        </h1>
+                        <p class="person-chat">Kese Hai App Or Ghar Pe Sab Kese Hai...</p>
+                    </div>
+                </div>
+                <p class="last-chat-time">12:00 pm</p>
+            </div>
+
+
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Nidhi.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Nidhi
+                        </h1>
+                        <p class="person-chat">Answer my phone! I need your help... </p>
+                    </div>
+                </div>
+                <p class="last-chat-time">2:30 am</p>
+            </div>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Ashish.jpg" alt="" class="user-img ">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Ashish
+                        </h1>
+                        <p class="person-chat">Bhai, Mera dhandha band karwana hai kya...</p>
+                    </div>
+                </div>
+                <p class="last-chat-time"> 1:00 am</p>
+            </div>
+
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Natwar.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Natwar
+                        </h1>
+                        <p class="person-chat">Bhai, Kall Me Lcknow Aa Raha Ho...</p>
+                    </div>
+                </div>
+                <p class="last-chat-time">2:00 am</p>
+            </div>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Deepak.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Deepak
+                        </h1>
+                        <p class="person-chat">Bhai Wo Mana Kar Raha Hai, Bol Raha Hai Ki Use Experiece Candidate Chahiye..<span class="tick">&#10003;</span><span class="tick2">&#10003;</span></p>
+                        </p>
+                    </div>
+                </div>
+                <p class="last-chat-time">12:00 pm</p>
+            </div>
+
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Komal.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Komal
+                        </h1>
+                        <p class="person-chat">Mai Jaldi Rupee De Dungi...<span class="tick">&#10003;</span><span class="tick2">&#10003;</span></p>
+                    </div>
+                </div>
+                <p class="last-chat-time">12:00 pm</p>
+            </div>
+
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Niharika.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Niharika
+                        </h1>
+                        <p class="person-chat">Kese Ho Bhai..</p>
+                    </div>
+                </div>
+                <p class="last-chat-time">12:00 pm</p>
+            </div>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Ajeet.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Ajeet
+                        </h1>
+                        <p class="person-chat">Bhai Marna Mat Plz...</p>
+                    </div>
+                </div>
+                <p class="last-chat-time">12:00 pm</p>
+            </div>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Sumant.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Sumant
+                        </h1>
+                        <p class="person-chat">Bhai me aa raha ho jaldi kuch bana le mujhe bhook lagi hai...</p>
+                    </div>
+                </div>
+                <p class="last-chat-time">12:00 pm</p>
+            </div>
+        </div>
+
+        <div class="status-container">
+
+            <div class="status-list-fixed">
+                <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-camera-retro fa-2x" aria-hidden="true"></i>
+            </div>
+
+
+            <div class="person-profile person-profile-status">
+                <i class="fa fa-plus add-icon" aria-hidden="true"></i>
+                <img src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png" alt="" class="user-img">
+                <div class="person-name">
+                    <h2 class="persion-name-heading"> My status </h2>
+                    <p class="person-chat">Tap to see add status upadte</p>
+                </div>
+            </div>
+            <h2 class="recent-update">Recent updates
+            </h2>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Bhai.jpg" alt="" class="user-img user-img-status">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Bhai
+                        </h1>
+                        <p class="person-chat">42 minutes ago</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="call-container">
+
+            <div class="call-list">
+                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Nidhi.jpg" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Nidhi
+                        </h1>
+                        <p class="person-chat"> Today, 1:22am</p>
+                    </div>
+                </div>
+                <p class="last-chat-time"><i class="fa fa-phone fx-4x call-icon" aria-hidden="true"></i></p>
+            </div>
+
+            <div class="chat-list">
+                <div class="person-profile">
+                    <img src="Ashish.jpg" alt="" class="user-img" alt="" class="user-img">
+                    <div class="person-name">
+                        <h1 class="persion-name-heading">
+                            Ashish
+                        </h1>
+                        <p class="person-chat"> Today, 2 :22am</p>
+                    </div>
+                </div>
+                <p class="last-chat-time"><i class="fa fa-video-camera call-icon" aria-hidden="true"></i></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
